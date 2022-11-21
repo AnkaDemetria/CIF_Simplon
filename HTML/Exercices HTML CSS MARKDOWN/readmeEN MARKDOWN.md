@@ -77,7 +77,21 @@ Ici, vous allez commencer par lister les dépendances du projet, comme des libra
 A la suite de la section où vous avez listé les dépendances, ajoutez une nouvelle liste : il s’agit d’y placer, dans l’ordre chronologique, les procédures d’installation. Il est inutile de trop entrer dans les détails, une simple liste suffit.
 Une fois le projet installé et prêt à être développé, vous allez devoir, dans la majorité des cas, écrire quelques indications supplémentaires pour aider à la construction, la publication ou le déploiement du code en donnant des instructions claires (et de préférence à copier-coller).
 
+**Par exemple, si on veut créer de la documentation pour un plugin hébergé sur GitHub, on pourrait imaginer les éléments suivants :**
 
+un titre, le nom du projet ;
+une description de ce que fait le plugin, sans trop entrer dans la technique ;
+Les pré-requis à l’utilisation du plugin (version de node si besoin, dépendances, etc.)
+le guide d’installation (les commandes à exécuter pour l’installation, les éventuels problèmes qui peuvent intervenir, etc.) ;
+le guide d’utilisation : les méthodes, leurs options, ce qu’elles retournent, etc.
+une roadmap, pour présenter ce que vous avez prévu pour le futur du plugin, avec d’éventuelles dates comme jalons ;
+la licence d’utilisation, si vous voulez notamment limiter l’utilisation de votre plugin ;
+les divers contributeurs, s’il y en a, ainsi qu’un moyen de les ou de vous contacter directement.
+Également, il est recommandé d’inclure les éléments suivants dans votre README GitHub :
+
+des images (y compris gif), si cela a du sens ;
+divers liens, vers des vidéos de présentations, des exemples d’implémentation ;
+des retours d’expériences, s’il y en a.
 
 
 
