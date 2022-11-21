@@ -60,6 +60,23 @@ Pour transformer rapidement une URL ou une adresse e-mail en lien, placez-la ent
 Pour souligner les liens, ajoutez des astérisques avant et après les crochets et les parenthèses. Pour désigner des liens en tant que code , ajoutez des backticks entre parenthèses.
 Voici le *[Guide Markdown](https://www.markdownguide.org)*
 
+##Comment écrire un bon README.md ?
+
+La rédaction d’un bon fichier README.md témoigne que votre projet vous tient à cœur et peut inciter d’autres développeurs à s’y intéresser, voire à y contribuer. L’extension « .md » vient du mot « markdown » : markdown un langage de balisage pour le formatage de texte, tout comme le HTML.  Ce balisage permet de rendre nos documents présentables.  Son utilisation première est de servir de documentation. Si vous voulez que votre projet GitHub, que cela soit un framework ou une extension, soit téléchargé et utilisé, il faut qu’il ait une documentation explicite et limpide.
+
+**Une entête basique qui décrit le projet**
+Évidemment, vous devez mettre le titre du projet accompagné d’une brève description de ce qu’il réalise. N’en faites pas des tonnes non plus, et restez dans les généralités. Toute information qui risque de changer, comme des règles fonctionnelles, ne doit pas figurer à ce stade.
+Si possible, faites héberger votre projet et mettez en place une démo live. Vous pouvez ajouter un lien vers cette démo dans votre README.md : cela va intéresser beaucoup de gens qui ne se feront pas prier pour jouer avec votre démo !
+
+**Utilisez des images**
+Vous avez évidemment des images de votre projet en tête mais vos lecteurs pourraient avoir besoin de quelques photos de votre projet.
+Mieux encore : si Github ne permet pas l’ajout de vidéos, le format .gif est supporté, vous pouvez donc y insérer une petite séquence animée de votre code en action !
+
+**Prérequis, installation, déploiement**
+Ici, vous allez commencer par lister les dépendances du projet, comme des librairies ou des drivers par exemple.
+A la suite de la section où vous avez listé les dépendances, ajoutez une nouvelle liste : il s’agit d’y placer, dans l’ordre chronologique, les procédures d’installation. Il est inutile de trop entrer dans les détails, une simple liste suffit.
+Une fois le projet installé et prêt à être développé, vous allez devoir, dans la majorité des cas, écrire quelques indications supplémentaires pour aider à la construction, la publication ou le déploiement du code en donnant des instructions claires (et de préférence à copier-coller).
+
 
 
 
