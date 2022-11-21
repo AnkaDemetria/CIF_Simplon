@@ -1,0 +1,77 @@
+mark{
+	color:red;
+}
+
+em{
+	color:darkgreen;/*Commentaires*/
+}
+
+li{
+	color: indianred;font-weight: bolder;
+}
+
+/*.bidon{
+	color: #000; Pour la class bidon pour garder la ligne apres la puce en indianred*/
+}
+.introduction
+{
+	color: darkgreen;font-weight: bolder;
+}
+
+.flottant{
+	float: right;
+}
+
+p{
+	text-align: justify; font-family: 'ambleregular';
+}
+
+.autreparagraphe{
+	clear: both;
+}
+
+h3{
+	text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1{
+	font-weight: bolder ; text-decoration: underline; text-align: center;
+}
+
+h2{
+	background-color: black; color:  lightpink;
+}
+
+body 
+{
+	background-image: url("fond6.png");
+	/*background-attachment:  fixed;
+	background-repeat: no-repeat, opacity: 1;
+	ou alors background: url("fond.png") fixed no-repeat;
+	ou alors background: url("fond.png"); background-size:100% */
+}
+
+.exemple
+{
+	border:3px blue solid;
+}
+
+.exemple2
+{
+	border:3px red solid;
+	border-radius: 20px;
+}
