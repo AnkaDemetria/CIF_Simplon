@@ -1,0 +1,34 @@
+
+.document {
+    display: flex;
+    background-color: rgb(166, 255, 0);
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.presentationslide {
+    display: flex;
+    background-color: #f35b9a;
+    width: 25%;
+    margin-top: -4.5%;
+    margin-left: 60%; 
+
+}
+
+section a  {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 2% ;
+}
+
+.aurabelle {
+    color: black;
+    display: flex;
+    background-color: #4bcec7;
+    width: 35%;
+    margin-top: -25%;
+    margin-left: 35%;
+}
+
